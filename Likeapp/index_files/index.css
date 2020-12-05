@@ -1,0 +1,40 @@
+* { margin:0; padding:0; }
+body{width:100%;max-width:750px;margin:0 auto;font-family:'Helvetica'; background:#fff;}
+a{text-decoration:none;-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+-webkit-user-select: none;
+-moz-user-focus: none;
+-moz-user-select: none;
+color:inherit;}
+
+@media screen and (min-width:900px){
+body{font-size:20px;}	
+}
+@media (max-width:900px) {
+body{font-size:12px;}
+}
+
+.you{
+
+animation:twinkle1 0.6s infinite alternate ;
+
+-moz-animation:twinkle1 0.6s infinite alternate ;
+
+-ms-animation:twinkle1 0.6s infinite alternate ;
+
+-webkit-animation:twinkle1 0.6s infinite alternate ;}
+
+@keyframes twinkle1 {
+
+0% {-webkit-transform: scale(1.0);-moz-transform: scale(1.0); -ms-transform: scale(1.0);}
+
+100% {-webkit-transform: scale(1.1);-moz-transform:scale(1.1);-ms-transform: scale(1.1); }
+
+}
+
+@-moz-keyframes twinkle1{
+
+0% {-webkit-transform: scale(1.0);-moz-transform: scale(1.0); -ms-transform: scale(1.0);}
+
+100% {-webkit-transform: scale(1.1);-moz-transform:scale(1.1);-ms-transform: scale(1.1); }
+
+}
