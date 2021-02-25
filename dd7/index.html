@@ -879,8 +879,8 @@
 
         });
 
-        var _get = function (url, callback) {
-            $.getJSON(url, function (result) {
+               var _get = function (url, callback) {
+            $.getJSON(EC_Portal_API_URL+url, function (result) {
                 console.log(result);
                 callback(result);
             });
